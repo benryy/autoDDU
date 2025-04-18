@@ -1,2 +1,2 @@
-cd DDU "v18.1.1.0"
+cd DDU
 cmd /k "Display Driver Uninstaller.exe" -cleannvidia

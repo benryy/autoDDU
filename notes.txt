@@ -4,7 +4,7 @@ cmd
 winget install --id Git.Git -e --source winget ::may prompt UAC
 ::wait 2 min
 
-start "" "%ProgramFiles%\Git\git-bash.exe" -c "tail -f /c/Windows/win.ini"
+start "" "%ProgramFiles%\Git\git-bash.exe"
 git clone https://github.com/benryy/autoDDU.git ::may prompt UAC
 
 WIN + r

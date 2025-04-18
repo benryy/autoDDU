@@ -1,3 +1,6 @@
+win + r
+cmd
+
 winget install --id Git.Git -e --source winget
 git clone https://github.com/benryy/autoDDU.git
 cd documents

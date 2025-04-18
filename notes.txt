@@ -1,11 +1,12 @@
-::WIN + r
-cmd ::CTRL + SHIFT + ENTER
-
-winget install --id Git.Git -e --source winget ::ENTER may prompt UAC
+WIN + r
+cmd
+winget install --id Git.Git -e --source winget ::may prompt UAC
 ::wait 2 min
 
 start "" "%ProgramFiles%\Git\git-bash.exe" -c "tail -f /c/Windows/win.ini"
 git clone https://github.com/benryy/autoDDU.git
-cd documents
-cd ddu
-cmd /k "Display Driver Uninstaller.exe" -cleannvidia
+
+cd autoDDU
+cd DDU
+
+cmd /k "Display Driver Uninstaller.exe" -cleannvidia ::will prompt UAC
